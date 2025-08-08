@@ -1,0 +1,63 @@
+﻿@page
+@model KochrouletteWeb.Pages.IndexModel
+@{
+    ViewData["Title"] = "Kochroulette";
+}
+
+<h1>Kochroulette</h1>
+
+<div style="display: flex; align-items: flex-start; gap: 40px;">
+
+    <form method="post" style="flex: 1;">
+        <fieldset>
+            <legend><strong>Zutaten</strong></legend>
+            <label><input type="checkbox" asp-for="Protein" /> Protein</label>
+            <br />
+            <label><input type="checkbox" asp-for="Saettigungsbeilage" /> Sättigungsbeilage</label>
+            <br />
+            <label><input type="checkbox" asp-for="Gemuese" /> Gemüse</label>
+            <br />
+            <label><input type="checkbox" asp-for="Obst" /> Obst</label>
+            <br />
+            <label><input type="checkbox" asp-for="NurVegetarisch" /> nur vegetarisch</label>
+            <br />
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Budget (€)</strong></legend>
+            <label>Von: <input type="number" asp-for="BudgetVon" /></label>
+            <br />
+            <label>Bis: <input type="number" asp-for="BudgetBis" /></label>
+            <br />
+        </fieldset>
+
+        <button type="submit">Start</button>
+    </form>
+
+    <div style="flex: 1; border-left: 2px solid #ccc; padding-left: 20px;">
+        @if (Model.ErgebnisBudget != null)
+        {
+            <h2>Ergebnisse</h2>
+            <ul>
+                @if (Model.ErgebnisProtein != null)
+                {
+                    <li><strong>Protein:</strong> @Model.ErgebnisProtein</li>
+                }
+                @if (Model.ErgebnisSaettigungsbeilage != null)
+                {
+                    <li><strong>Sättigungsbeilage:</strong> @Model.ErgebnisSaettigungsbeilage</li>
+                }
+                @if (Model.ErgebnisGemuese != null)
+                {
+                    <li><strong>Gemüse:</strong> @Model.ErgebnisGemuese</li>
+                }
+                @if (Model.ErgebnisObst != null)
+                {
+                    <li><strong>Obst:</strong> @Model.ErgebnisObst</li>
+                }
+                <li><strong>Budget:</strong> @Model.ErgebnisBudget</li>
+            </ul>
+        }
+    </div>
+
+</div>

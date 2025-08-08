@@ -1,0 +1,564 @@
+[
+  {
+    "name": "Hähnchen",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Rind",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Schwein",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Lamm",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Ente",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Pute",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Wildschwein",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Kalb",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Hirsch",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Lachs",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Thunfisch",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Forelle",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Makrele",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Seelachs",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Garnelen",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Tintenfisch",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Muscheln",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Krabben",
+    "art": "Protein",
+    "isVegetarisch": false
+  },
+  {
+    "name": "Tofu",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Tempeh",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Seitan",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Sojaschnetzel",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Kichererbsen",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Linsen",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Bohnen",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Erbsen",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Edamame",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Eier",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Käse",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Joghurt",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Skyr",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Quark",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Haferflocken",
+    "art": "Protein",
+    "isVegetarisch": true
+  },
+
+
+  {
+    "name": "Reis",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Nudeln",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Kartoffeln",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Couscous",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Bulgur",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Quinoa",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Polenta",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Hirse",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Gnocchi",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Knödel",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Mais",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Graupen",
+    "art": "Saettigungsbeilage",
+    "isVegetarisch": true
+  },
+
+
+  {
+    "name": "Brokkoli",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Karotten",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Paprika",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Zucchini",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Aubergine",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Blumenkohl",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Spinat",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Grünkohl",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Kohlrabi",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Fenchel",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Porree",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Rosenkohl",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Mangold",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Spargel",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Chinakohl",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Weißkohl",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Rotkohl",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Zwiebeln",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Knoblauch",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Schalotten",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Pastinaken",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Petersilienwurzel",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Sellerie",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Lauch",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Bohnen",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Erbsen",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Mais",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Okra",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Artischocken",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Süßkartoffel",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Avocado",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Kürbis",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Radieschen",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Wirsing",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Pak Choi",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Mairüben",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Salat",
+    "art": "Gemuese",
+    "isVegetarisch": true
+  },
+
+
+
+  {
+    "name": "Apfel",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Birne",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Banane",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Orange",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Mandarine",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Zitrone",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Limette",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Pfirsich",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Nektarine",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Aprikose",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Kirsche",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Zwetschge",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Pflaume",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Traube",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Honigmelone",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Wassermelone",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Ananas",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Mango",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Papaya",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Kiwi",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Feige",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Granatapfel",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Dattel",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Maracuja",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Brombeere",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Himbeere",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Erdbeere",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Johannisbeere",
+    "art": "Obst",
+    "isVegetarisch": true
+  },
+  {
+    "name": "Heidelbeere",
+    "art": "Obst",
+    "isVegetarisch": true
+  }
+]
