@@ -2,10 +2,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-COPY *.csproj ./
+COPY KochrouletteWeb/*.csproj ./KochrouletteWeb/
+WORKDIR /app/KochrouletteWeb
 RUN dotnet restore
 
-COPY . ./
+COPY . .
 RUN dotnet publish -c Release -o /out
 
 # STAGE 2: Runtime
