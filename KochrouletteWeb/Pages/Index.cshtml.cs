@@ -1,6 +1,7 @@
 using KochrouletteWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Globalization;
 
 namespace KochrouletteWeb.Pages
 {
@@ -48,7 +49,7 @@ namespace KochrouletteWeb.Pages
                 ErgebnisObst = auswahl.Zufallszutat(Zutat.Kategorie.Obst, NurVegetarisch).Name;
 
             var zahl = rand.Next(BudgetVon + 1, BudgetBis - 1);
-            ErgebnisBudget = $"{zahl - 1}€ bis {zahl + 1}€";
+            ErgebnisBudget = $"{(zahl - 1).ToString("C", CultureInfo.GetCultureInfo("de-DE"))} bis {(zahl + 1).ToString("C", CultureInfo.GetCultureInfo("de-DE"))}";
         }
     }
 }
